@@ -12,7 +12,7 @@ import python_micro_template
 class ScrollViewApp(App):
 
     def build(self):
-        kvml=open('scrollview.kvml', 'r').read()
+        kvml=open('example_kivy_scrollview.kvml', 'r').read()
         kvml=python_micro_template.tpl.parse(kvml)
         grid=Builder.load_string(kvml)
         grid.bind(minimum_height=grid.setter('height'))
