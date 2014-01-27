@@ -1,6 +1,7 @@
 # Copyright (c) DIYism (email/msn/gtalk:kexianbin@diyism.com web:http://diyism.com)
 # Licensed under GPL (http://www.opensource.org/licenses/gpl-license.php) license.
 # Version: ke1r
+# Document: https://github.com/diyism/python-micro-template/
 
 import re
 import collections
