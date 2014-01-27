@@ -1,0 +1,13 @@
+GridLayout:
+    cols: 1
+    padding: 10
+    spacing: 10
+    size_hint: None, None
+    width: 500
+
+    <:for i in range(30):#{#:>
+    Button:
+        text: '<:=i:><:for j in range(6):#{#:><:=j:><:#}#:>'
+        size: 480, 40
+        size_hint: None, None
+    <:#}#:>
