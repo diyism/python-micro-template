@@ -3,7 +3,7 @@ python-micro-template
 
 Take python itself as template language
 
-Borrowed from jquery micro template
+Borrowed from jquery micro template(http://code.google.com/p/jquery-micro-template/)
 
 # Usage example: #
 
