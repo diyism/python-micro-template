@@ -14,7 +14,7 @@ Borrowed from jquery micro template(http://code.google.com/p/jquery-micro-templa
     grid=Builder.load_string(kvml)
     ...
 
-# Template example(scrollview.kvml): #
+# Template example: #
 
     <:for i in range(30):#{#:>
     Button:
